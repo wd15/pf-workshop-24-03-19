@@ -29,10 +29,13 @@ layout: center
 
 **Long Term Vision**
 
+<v-clicks>
+
  - Central registry of phase field curated data with CLI/Web/API tool
    to view and query results
  - Integrated with a phase field metadata standard
 
+</v-clicks>
 
 ---
 layout: figure
@@ -48,6 +51,8 @@ layout: center
 
 **PFHub Updates**
 
+<v-clicks>
+
  - Split out pfhub-cli into separate repository
    - [https://github.com/usnistgov/pfhub-cli][]
  - Convert to using Poetry and Poetry2Nix for builds
@@ -58,6 +63,7 @@ layout: center
  - Convert between old and new schemas
  - Validate old and new schemas
 
+</v-clicks>
 
 ---
 layout: center
@@ -71,7 +77,11 @@ $ pip install git+https://github.com/usnistgov/pfhub-cli.git
 
 <br>
 
+<v-clicks>
+
 - Currently only tested with Python 3.10
+
+</v-clicks>
 
 ---
 layout: center
@@ -199,13 +209,19 @@ pfhub.yaml is valid
 
 <br>
 
+<v-clicks>
+
 - Validating data files not yet included
+
+</v-clicks>
 
 ---
 layout: center
 ---
 
 **Next steps**
+
+<v-clicks>
 
 - Ensure all benchmarks work with new CLI tool
 - Implement `pfhub submit` with CLI and integrate with website
@@ -215,6 +231,7 @@ layout: center
 - Improve validation
 - Eventually integrate with new phase field schema
 
+</v-clicks>
 
 ---
 layout: center
@@ -232,11 +249,15 @@ layout: center
 
 **Goals**
 
+<v-clicks>
+
 - Generate a metadata standard for phase field data
   - Use current semantic web technologies
 - Adopt metadata standard for some published use cases
 - *Possibly* provide a template for FAIR metadata standards for
   materials simulation
+
+</v-clicks>
 
 ---
 layout: center
@@ -252,7 +273,6 @@ layout: center
 - *Possibly* provide a template for FAIR metadata standards for
   materials simulation
 
-
 ---
 layout: center
 ---
@@ -266,7 +286,7 @@ layout: center
  - Hafiz Noman, KIT
  - Michael Selzer, KIT
  - Marvin Tegeler, OpenPhase Solutions
- - Kaysuyo Thornton, U of Michigan
+ - Katsuyo Thornton, U of Michigan
  - Zach Trautt, NIST
  - Daniel Wheeler, NIST
  - Olga Wodo, U at Buffalo
@@ -279,11 +299,15 @@ layout: center
 
 **Initial Steps**
 
+<v-clicks>
+
 - Proposal
 - 5 use cases
 - List of relevant literature
 - Glossary and loose hierarchy
 - Tentative attempts using semantic web tech (schema.org)
+
+</v-clicks>
 
 ---
 layout: center
@@ -339,6 +363,8 @@ figureCaption: "From \"Report on Workshop on Interoperability in Materials Model
 
 **Work Plan**
 
+<v-clicks>
+
 - Continue monthly meetings (6 so far)
 - Complete metadata hierarchy
 - Implement with semantic web tech
@@ -346,15 +372,20 @@ figureCaption: "From \"Report on Workshop on Interoperability in Materials Model
   document
 - Publication and disseminate
 
+</v-clicks>
+
 ---
 layout: center
 ---
 
 **Summary**
 
+<v-clicks>
+
 - PFHub-CLI in development
   - Summer student likely to help with this
 - Developing phase field metadata standard
 
+</v-clicks>
 
 
